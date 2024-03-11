@@ -1,22 +1,27 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 0 1px;
+    box-sizing: border-box;
 }
 
 header {
     text-align: center;
+    background-color: rgb(58, 44, 44);
+    color: #fff;
+    padding: 10px 0;
 }
 
 
 #container {
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgb(80, 112, 101);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 7px;
     height: auto;
     padding: 10px;
+    color: #fff;
 }
 
 label {
@@ -42,7 +47,45 @@ button:hover {
     color: #fff;
 }
 
-#meal-conatiner{
-    background-color: blue;
-    height: auto;
+#result{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-height: 80vh;
+    overflow-y: scroll;
+    gap: 5px;
+    
+}
+
+.cardAll{
+    /* display: flex; */
+    width: 300px;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+
+img{
+    width: 100%;
+    height: 200px;
+}
+
+button{
+    float: right;
+    font-size: clamp(0.8rem,2vw, 1.2rem);
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(6, 80, 55, 0.6);
+    color: #fff;
+}
+
+#creatorid{
+    height: 200px;
+    width: 200px;
+    z-index: 20;
+    background-color: red;
 }
