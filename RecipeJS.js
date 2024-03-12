@@ -44,3 +44,17 @@ async function searchMeal() {
     });
 }
 
+
+let el = document.getElementById('creatorid');
+el.style.display = 'none';
+
+function hide() {
+
+    if (el.style.display == 'none') {
+        el.style.display = "block";
+    }
+    else {
+        el.style.display = 'none';
+    }
+}
+
