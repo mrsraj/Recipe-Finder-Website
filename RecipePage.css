@@ -105,3 +105,9 @@ h2 {
     width: 150px;
 }
 
+.Instructions{
+    height: 165px;
+    width: 300px;
+    overflow: auto;
+    scrollbar-width: none;
+}

@@ -12,7 +12,7 @@ async function defaultFun() {
         let htmlContent = `
                 <h2>${element.strMeal}</h2>
                 <img src="${element.strMealThumb}" alt="${element.strMeal}">
-                <p>${element.strInstructions}</p>
+                <div class='Instructions' >${element.strInstructions}</div>
             `;
 
         newDiv.innerHTML = htmlContent;
@@ -36,7 +36,7 @@ async function searchMeal() {
         let htmlContent = `
                 <h2>${element.strMeal}</h2>
                 <img src="${element.strMealThumb}" alt="${element.strMeal}">
-                <p>${element.strInstructions}</p>
+                <div class='Instructions'>${element.strInstructions}</div>
             `;
 
         newDiv.innerHTML = htmlContent;
