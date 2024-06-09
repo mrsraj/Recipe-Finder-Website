@@ -1,13 +1,16 @@
 This repository contains the code for a simple recipe finder website built using HTML, CSS, and JavaScript. The goal of this project is to create a user-friendly interface where users can search for recipes based on various criteria.
 
+
 #Features
    Search Functionality: Users can search for recipes using keywords.
    Responsive Design: The website is designed to be responsive and user-friendly on different devices.
    Dynamic Content: Recipes are displayed dynamically based on user input.
+   
 #File Structure
    index.html: The main HTML file that structures the webpage.
    styles.css: The CSS file that styles the webpage.
    script.js: The JavaScript file that contains the logic for fetching and displaying recipes.
+   
 #Technologies Used
    HTML: For structuring the content on the web.
    CSS: For styling the web pages.
